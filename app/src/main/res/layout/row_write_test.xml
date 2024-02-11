@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="432dp">
+        <!--        counter-->
+
+        <TextView
+            android:id="@+id/lblcounterOfTestsOfWriteTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="384dp"
+            android:background="@drawable/test_quetion_counter_bg"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+        <!--        txtQuetion-->
+
+        <!--        txtAnswers-->
+
+        <TextView
+            style="@android:style/Widget.EditText"
+            android:id="@+id/lblShowQuetion"
+            android:layout_width="245dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginBottom="382dp"
+            android:layout_toEndOf="@+id/lblcounterOfTestsOfWriteTest"
+            android:layout_toRightOf="@+id/lblcounterOfTestsOfWriteTest"
+            android:background="@drawable/inputborder"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="15dp"
+            android:text="cool  "
+            android:textSize="16dp" />
+
+        <TextView
+
+            android:id="@+id/lblShowAnswerA"
+            android:layout_width="205dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="62dp"
+            android:layout_marginRight="62dp"
+            android:layout_marginBottom="295dp"
+            android:layout_toEndOf="@+id/lblcheckBox_A"
+            android:layout_toRightOf="@+id/lblcheckBox_A"
+            android:background="@drawable/inputborder"
+            android:text="cool  "
+            android:gravity="start|center_vertical"
+            android:textSize="16dp"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/lblShowAnswerB"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginBottom="207dp"
+            android:layout_toEndOf="@+id/lblcheckBox_B"
+            android:layout_toRightOf="@+id/lblcheckBox_B"
+            android:background="@drawable/inputborder"
+            android:text="cool  "
+            android:gravity="start|center_vertical"
+            android:textSize="16dp"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/lblShowAnswerC"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="276dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginBottom="111dp"
+            android:layout_toEndOf="@+id/lblcheckBox_C"
+            android:layout_toRightOf="@+id/lblcheckBox_C"
+            android:background="@drawable/inputborder"
+            android:text="cool  "
+            android:gravity="start|center_vertical"
+            android:textSize="16dp"
+            android:paddingLeft="15dp" />
+
+        <TextView
+            android:id="@+id/lblShowAnswerD"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="368dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginRight="64dp"
+            android:layout_marginBottom="19dp"
+            android:layout_toEndOf="@+id/lblcheckBox_D"
+            android:layout_toRightOf="@+id/lblcheckBox_D"
+            android:background="@drawable/inputborder"
+            android:text="cool  "
+            android:gravity="start|center_vertical"
+            android:textSize="16dp"
+            android:paddingLeft="15dp" />
+
+        <!--    textViews-->
+
+        <TextView
+            android:id="@+id/lblA"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginBottom="305dp"
+            android:text="A"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/lblB"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="182dp"
+            android:layout_marginBottom="214dp"
+            android:text="B"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/lblC"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="279dp"
+            android:layout_marginBottom="121dp"
+            android:text="C"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+
+        <!--        checkboxes-->
+
+        <TextView
+            android:id="@+id/lblD"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="376dp"
+            android:layout_marginBottom="21dp"
+            android:text="D"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <CheckBox
+            android:id="@+id/lblcheckBox_A"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="39dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="98dp"
+            android:layout_marginBottom="306dp" />
+
+        <CheckBox
+            android:id="@+id/lblcheckBox_B"
+            android:layout_width="27dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="188dp"
+            android:layout_marginBottom="216dp" />
+
+        <CheckBox
+            android:id="@+id/lblcheckBox_C"
+            android:layout_width="26dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="283dp"
+            android:layout_marginBottom="119dp" />
+
+        <CheckBox
+            android:id="@+id/lblcheckBox_D"
+            android:layout_width="25dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="376dp"
+            android:layout_marginBottom="25dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

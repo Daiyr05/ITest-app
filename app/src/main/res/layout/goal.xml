@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/UserNickName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="NULL"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:textSize="50dp"
+
+        />
+
+    <TextView
+        android:id="@+id/ValueOfEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="259dp"
+        android:gravity="left"
+        android:text="null"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="130dp"
+        android:layout_marginBottom="150dp"
+        android:text="выйти"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="@color/secondPurple"
+         />
+
+    <Button
+        android:id="@+id/btnDeleteUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="80dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginRight="83dp"
+        android:layout_marginBottom="53dp"
+
+
+        android:backgroundTint="@color/secondPurple"
+        android:text="удалить аккаунт" />
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestListInterface.PassTest">
+    <include layout="@layout/actionbar" android:id="@+id/customToolbarForPassTest"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="50dp"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentBottom="true"
+       android:orientation="vertical"
+       >
+
+
+       <TextView
+           android:id="@+id/lblTestQuetionCounter"
+           android:layout_marginTop="40dp"
+         android:layout_width="wrap_content"
+         android:layout_height="30dp"
+           android:layout_gravity="center"
+           android:paddingHorizontal="10dp"
+           android:elevation="1dp"
+           android:background="@drawable/background_white_stroke_lbl"
+           android:text="10/1"
+           />
+
+       <TextView
+           android:id="@+id/test_lbl_quetion"
+           android:layout_width="match_parent"
+           android:layout_height="100dp"
+           android:layout_marginHorizontal="20dp"
+           android:layout_marginTop="-20dp"
+           android:background="@drawable/background_light_yellow"
+           android:gravity="center"
+           android:padding="5dp"
+           android:text="5+5"
+           android:textSize="16dp" />
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/test_answerA"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="20dp"
+           android:gravity="center"
+           android:background="@drawable/background_white_btn"
+           android:text="10"
+           android:layout_marginTop="50dp"
+           />
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/test_answerB"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="20dp"
+           android:gravity="center"
+           android:background="@drawable/background_white_btn"
+           android:text="5"
+           android:layout_marginTop="20dp"
+           />
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/test_answerC"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="20dp"
+           android:gravity="center"
+           android:background="@drawable/background_white_btn"
+           android:text="-10"
+           android:layout_marginTop="20dp"
+           />
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/test_answerD"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="20dp"
+           android:gravity="center"
+           android:background="@drawable/background_white_btn"
+           android:text="55"
+           android:layout_marginTop="20dp"
+           />
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/test_btnNext"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginHorizontal="20dp"
+           android:gravity="center"
+           android:background="@drawable/background_green_btn"
+           android:text="next"
+           android:textColor="#FFFFFF"
+           android:textStyle="bold"
+           android:layout_marginTop="50dp"
+           />
+   </LinearLayout>
+
+</RelativeLayout>

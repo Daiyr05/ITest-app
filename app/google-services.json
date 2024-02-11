@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284721801625",
+    "project_id": "itestdiplomeproject",
+    "storage_bucket": "itestdiplomeproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284721801625:android:29c3f04664be833289cb08",
+        "android_client_info": {
+          "package_name": "com.example.itest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284721801625-4ot77pqnefssg6tjnfs07jrum37jko6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKzyFBunmHbBkdbAYkJEOAFGHGDACFsJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284721801625-4ot77pqnefssg6tjnfs07jrum37jko6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

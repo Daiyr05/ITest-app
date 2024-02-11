@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="тесты"  android:id="@+id/testsActivity" android:icon="@drawable/nav_test_list_icon" />
+    <item android:title="прогресс" android:id="@+id/progressesActivity" android:icon="@drawable/nav_progress_icon" />
+    <item android:title="профиль"  android:id="@+id/goalsActivity" android:icon="@drawable/nav_account" />
+</menu>

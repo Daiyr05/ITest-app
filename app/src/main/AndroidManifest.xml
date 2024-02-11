@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.itest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ITest">
+        <activity android:name=".TestListInterface.TestFinished"></activity>
+        <activity
+            android:name=".TestListInterface.EditTest"
+            android:parentActivityName=".MainUserInterface"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".Authentication.ForgotPasw" />
+        <activity android:name=".Authentication.LogIn" />
+        <activity android:name=".Authentication.SignUp" />
+        <activity
+            android:name=".TestListInterface.PassTest"
+            android:parentActivityName=".MainUserInterface" />
+        <activity
+            android:name=".TestListInterface.AddTestActivity"
+            android:parentActivityName=".MainUserInterface"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MainUserInterface"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

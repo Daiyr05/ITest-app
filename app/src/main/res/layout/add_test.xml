@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestListInterface.AddTestActivity"
+    android:id="@+id/idOfAddTest"
+    >
+    <include layout="@layout/actionbar"
+        android:id="@+id/customToolbarForAddTest"
+
+        />
+
+    <ScrollView
+        android:id="@+id/scrollOfAddTest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/clickLayout"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/layoutList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:text="Добавьте вопрос к тесту"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/txtSubject"
+                android:layout_width="298dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/inputborder"
+                android:ems="10"
+                android:hint="Введите название урока"
+                android:inputType="textPersonName"
+                android:paddingLeft="15dp" />
+
+            <EditText
+                android:id="@+id/txtTheme"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="70dp"
+                android:layout_gravity="center"
+                android:background="@drawable/inputborder"
+                android:ems="10"
+                android:hint="введите тему"
+                android:inputType="textPersonName"
+                android:paddingLeft="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/clickLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-4dp"
+        android:background="@color/silver"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnAddTest"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/add_button_style"
+            android:src="@drawable/add_asset_image" />
+
+        <Button
+            android:id="@+id/sendDataToBD"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/secondPurple"
+            android:text="save" />
+    </LinearLayout>
+</RelativeLayout>

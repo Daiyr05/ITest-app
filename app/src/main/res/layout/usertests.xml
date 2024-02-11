@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ListView
+        android:id="@+id/testList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </ListView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ScrollView>
+    <ImageButton
+        android:id="@+id/btnAddTest"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom|end"
+        android:background="@drawable/add_button_style"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="25dp"
+
+        android:src="@drawable/add_asset_image" />
+
+</FrameLayout>
